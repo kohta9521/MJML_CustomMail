@@ -1,46 +1,62 @@
 <mjml>
   <mj-head>
     <mj-style>
-      .ticket-style {
-        background-color: #333;
-        border: 2px solid #fff;
-      }
-      .qr-code {
-        font-size: 18px;
-        font-weight: bold;
-      }
+    .ticket-style {
+    background-color: #333;
+    border: 2px solid #fff;
+    color: #fff;
+    }
+    .qr-code {
+    font-size: 18px;
+    font-weight: bold;
+    }
+    .event-details {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #8D7700;
+    }
     </mj-style>
     <mj-attributes>
-      <mj-all font-family="Georgia, serif" />
+      <mj-all font-family="Times New Roman", Times, serif />
       <mj-text line-height="25px" />
     </mj-attributes>
   </mj-head>
-  <mj-body background-color="#000">
-    <mj-section>
+  <mj-body background-color="white">
+    <!-- ここの画像のパス部分に画像を挿入 -->
+    <mj-section background-url="../images/ticket.png" padding="140px 0" background-size="cover" background-repeat="no-repeat">
       <mj-column>
-        <mj-image src="../images/logo2.png" alt="QR Code" width="100px"></mj-image>
-        <mj-text font-size="30px" color="#fff" font-weight="bold" align="center">
-          Keio Grads Night
-        </mj-text>
-        <mj-divider border-color="#fff"></mj-divider>
-        <mj-text color="#fff">
+            <mj-image src="../images/sampleqrcode.png" alt="QR Code" width="300px"></mj-image>
+            <!-- ここに整理券番号を挿入 -->
+            <mj-text color="#8D7700" font-size="42px"align="center" padding="40px" font-weight="bold" >
+            整理券番号: 99
+            </mj-text>
+            <mj-text  color="#fff" padding="100px" font-size="45px" font-weight="bold" align="center">
+            Keio Grads Night<br>
+            </mj-text>
+        <mj-text css-class="event-details" padding="0px 100px" color="#8D7700" font-weight="bold" >
           日程：2024年1月8日（月）成人の日<br>
           時間：20:00-22:30<br>
           場所：BAIA Shibuya<br>
           対象：慶應義塾一貫校卒業生<br>
-          会費：10,000円（当日支払い・現金のみ可）
-        </mj-text>
-        <mj-image src="../images/sampleqrcode.png" alt="QR Code" width="250px"></mj-image>
-        <mj-text color="#fff" font-size="30px"align="center">
-          整理券番号: 99
-        </mj-text>
-        <mj-text color="#fff">
+          会費：10,000円（当日支払い・現金のみ可）<br>
+          <br>
           渋谷PARCO前の、ルーフトップを含めた5階建ての会場を貸切にしております。<br>
           会場内ではアルコール・ソフトドリンク飲み放題と軽食、また豪華景品を多数用意しております。<br>
+          <br>
           添付しておりますQRコードは当日入場の際に入り口にて読み取らせていただきます。<br>
+          入場する際に必要となりますので、このメールを破棄することのないようご注意ください。<br>
+          <br>
+          また、整理券番号は当日行う抽選会で使用いたします。<br>
           当日は【 抽選会(参加型:その場で抽選 / 非参加型:運営側で抽選を行いInstagram上にて当選者発表)・ビンゴ大会】の実施を予定しております。<br>
-          〈Instagram Account：keionijikai.2024〉<br>
-          〒150-0042 東京都渋谷区宇田川町16-17
+          抽選会ではそれぞれの景品ごとに抽選を行い当選番号を口頭・インスタ上にて発表いたしますので、2次会Instagramアカウントと併せて各自ご確認の程よろしくお願いいたします。<br>
+          <br>
+
+        </mj-text>
+        <mj-text  color="#fff" padding="20px" font-size="15px" font-weight="bold" align="center">
+            〈Instagram Account：keionijikai.2024〉
+        </mj-text>
+        <mj-text  color="#fff" padding="0px" font-size="15px" font-weight="bold" align="center">
+            〒150-0042 東京都渋谷区宇田川町16-17
         </mj-text>
       </mj-column>
     </mj-section>
