@@ -57,13 +57,6 @@
       .mj-outlook-group-fix { width:100% !important; }
     </style>
     <![endif]-->
-  <!--[if !mso]><!-->
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet" type="text/css">
-  <style type="text/css">
-    @import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
-
-  </style>
-  <!--<![endif]-->
   <style type="text/css">
     @media only screen and (min-width:480px) {
       .mj-column-per-100 {
@@ -81,135 +74,107 @@
 
   </style>
   <style type="text/css">
+    @media only screen and (max-width:479px) {
+      table.mj-full-width-mobile {
+        width: 100% !important;
+      }
+
+      td.mj-full-width-mobile {
+        width: auto !important;
+      }
+    }
+
   </style>
   <style type="text/css">
+    .ticket-style {
+      background-color: #333;
+      border: 2px solid #fff;
+      color: #fff;
+    }
+
+    .qr-code {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .event-details {
+      font-size: 16px;
+      line-height: 1.5;
+      color: #8D7700;
+    }
+
   </style>
 </head>
 
-<body style="word-spacing:normal;background-color:#ffffff;">
-  <div style="background-color:#ffffff;">
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="margin:0px auto;max-width:600px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
-        <tbody>
-          <tr>
-            <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
-              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
-                  <tbody>
-                    <tr>
-                      <td align="left" style="font-size:0px;padding:0;word-break:break-word;">
-                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">2019/03/30</div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="left" style="font-size:0px;padding:0;word-break:break-word;">
-                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">
-                          <h1>ミツエーリンクスニュース<h1>
-                        </div>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
-            </td>
-          </tr>
-        </tbody>
-      </table>
+<body style="word-spacing:normal;background-color:white;">
+  <div style="background-color:white;">
+    <!-- ここの画像のパス部分に画像を挿入 -->
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><v:rect style="width:600px;" xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false"><v:fill origin="0, -0.5" position="0, -0.5" src="../images/ticket.png" type="frame" size="1,1" aspect="atleast" /><v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0"><![endif]-->
+    <div style="background:url('../images/ticket.png') center top / cover no-repeat;background-position:center top;background-repeat:no-repeat;background-size:cover;margin:0px auto;max-width:600px;">
+      <div style="line-height:0;font-size:0;">
+        <table align="center" background="../images/ticket.png" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:url('../images/ticket.png') center top / cover no-repeat;background-position:center top;background-repeat:no-repeat;background-size:cover;width:100%;">
+          <tbody>
+            <tr>
+              <td style="direction:ltr;font-size:0px;padding:140px 0;text-align:center;">
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+                <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                    <tbody>
+                      <tr>
+                        <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                            <tbody>
+                              <tr>
+                                <td style="width:300px;">
+                                  <img alt="QR Code" src="../images/sampleqrcode.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="300" height="auto" />
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <!-- ここに整理券番号を挿入 -->
+                      <tr>
+                        <td align="center" style="font-size:0px;padding:40px;word-break:break-word;">
+                          <div style="font-family:Times New Roman;font-size:42px;font-weight:bold;line-height:25px;text-align:center;color:#8D7700;">整理券番号: 99</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="center" style="font-size:0px;padding:100px;word-break:break-word;">
+                          <div style="font-family:Times New Roman;font-size:45px;font-weight:bold;line-height:25px;text-align:center;color:#ffffff;">Keio Grads Night<br></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="left" class="event-details" style="font-size:0px;padding:0px 100px;word-break:break-word;">
+                          <div style="font-family:Times New Roman;font-size:13px;font-weight:bold;line-height:25px;text-align:left;color:#8D7700;">日程：2024年1月8日（月）成人の日<br> 時間：20:00-22:30<br> 場所：BAIA Shibuya<br> 対象：慶應義塾一貫校卒業生<br> 会費：10,000円（当日支払い・現金のみ可）<br>
+                            <br> 渋谷PARCO前の、ルーフトップを含めた5階建ての会場を貸切にしております。<br> 会場内ではアルコール・ソフトドリンク飲み放題と軽食、また豪華景品を多数用意しております。<br>
+                            <br> 添付しておりますQRコードは当日入場の際に入り口にて読み取らせていただきます。<br> 入場する際に必要となりますので、このメールを破棄することのないようご注意ください。<br>
+                            <br> また、整理券番号は当日行う抽選会で使用いたします。<br> 当日は【 抽選会(参加型:その場で抽選 / 非参加型:運営側で抽選を行いInstagram上にて当選者発表)・ビンゴ大会】の実施を予定しております。<br> 抽選会ではそれぞれの景品ごとに抽選を行い当選番号を口頭・インスタ上にて発表いたしますので、2次会Instagramアカウントと併せて各自ご確認の程よろしくお願いいたします。<br>
+                            <br>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="center" style="font-size:0px;padding:20px;word-break:break-word;">
+                          <div style="font-family:Times New Roman;font-size:15px;font-weight:bold;line-height:25px;text-align:center;color:#ffffff;">〈Instagram Account：keionijikai.2024〉</div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
+                          <div style="font-family:Times New Roman;font-size:15px;font-weight:bold;line-height:25px;text-align:center;color:#ffffff;">〒150-0042 東京都渋谷区宇田川町16-17</div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="margin:0px auto;max-width:600px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
-        <tbody>
-          <tr>
-            <td style="direction:ltr;font-size:0px;padding:0 10px;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:580px;" ><![endif]-->
-              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-bottom:2px solid #f2f2f2;vertical-align:top;" width="100%">
-                  <tbody>
-                    <tr>
-                      <td align="left" style="font-size:0px;padding:0;word-break:break-word;">
-                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:14px;line-height:1;text-align:left;color:#000000;">
-                          <h2>ミツエーリンクスとは<h2>
-                        </div>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="margin:0px auto;max-width:600px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
-        <tbody>
-          <tr>
-            <td style="direction:ltr;font-size:0px;padding:20px 10px;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:580px;" ><![endif]-->
-              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
-                  <tbody>
-                    <tr>
-                      <td align="left" style="font-size:0px;padding:0;word-break:break-word;">
-                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">
-                          <p>ミツエーリンクスは1990年というIT分野の幕開けともいえる時期から、デジタルコンテンツを中心に、数々のユニークなサービスを提供してきました。</p>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="left" style="font-size:0px;padding:0;word-break:break-word;">
-                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">
-                          <p>顧客企業さまのマーケティングやブランディングをデジタルメディアで実現し、また継続的に改善し続けるべく、コンテンツ（映像・音声を含む）およびUIの企画・設計・実装、Webサイトの構築・運用を中心に、システム開発、アプリケーション開発、アクセシビリティ/ユーザビリティの向上、アクセス解析に至るまで、さまざまなサービスを包括的に提供しています。</p>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td align="left" style="font-size:0px;padding:0;word-break:break-word;">
-                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#000000;">
-                          <p>ミツエーリンクスは、高い技術品質、プロセス品質、サービス品質と共に一連のサービスを有機的に統合し、機能的価値と情緒的価値に変換することで、企業・社会活動に貢献します。</p>
-                        </div>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    <div style="margin:0px auto;max-width:600px;">
-      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
-        <tbody>
-          <tr>
-            <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
-              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
-              <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
-                  <tbody>
-                    <tr>
-                      <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                        <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:1;text-align:center;color:#000000;">&copy; 2019 dummy inc.</div>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!--[if mso | IE]></td></tr></table><![endif]-->
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <!--[if mso | IE]></td></tr></table><![endif]-->
+    <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><![endif]-->
   </div>
 </body>
 
