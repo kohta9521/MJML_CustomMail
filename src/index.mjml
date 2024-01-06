@@ -12,13 +12,14 @@
     </mj-style>
     <mj-attributes>
       <mj-all font-family="Georgia, serif" />
-      <mj-text line-height="1.5" />
+      <mj-text line-height="25px" />
     </mj-attributes>
   </mj-head>
   <mj-body background-color="#000">
     <mj-section>
       <mj-column>
-        <mj-text font-size="24px" color="#fff" font-weight="bold" align="center">
+        <mj-image src="../images/logo2.png" alt="QR Code" width="100px"></mj-image>
+        <mj-text font-size="30px" color="#fff" font-weight="bold" align="center">
           Keio Grads Night
         </mj-text>
         <mj-divider border-color="#fff"></mj-divider>
