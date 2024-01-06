@@ -1,0 +1,18 @@
+<mjml>
+    <mj-body background-color="#fff">
+    <mj-include path="./components/structure/header.mjml" />
+    <mj-section padding="0 10px">
+        <mj-column border-bottom="2px solid #f2f2f2">
+        <mj-text font-size="14px" padding="0"><h2>ミツエーリンクスとは<h2></mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section padding="20px 10px">
+        <mj-column>
+        <mj-text padding="0"><p>ミツエーリンクスは1990年というIT分野の幕開けともいえる時期から、デジタルコンテンツを中心に、数々のユニークなサービスを提供してきました。</p></mj-text>
+        <mj-text padding="0"><p>顧客企業さまのマーケティングやブランディングをデジタルメディアで実現し、また継続的に改善し続けるべく、コンテンツ（映像・音声を含む）およびUIの企画・設計・実装、Webサイトの構築・運用を中心に、システム開発、アプリケーション開発、アクセシビリティ/ユーザビリティの向上、アクセス解析に至るまで、さまざまなサービスを包括的に提供しています。</p></mj-text>
+        <mj-text padding="0"><p>ミツエーリンクスは、高い技術品質、プロセス品質、サービス品質と共に一連のサービスを有機的に統合し、機能的価値と情緒的価値に変換することで、企業・社会活動に貢献します。</p></mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-include path="./components/structure/footer.mjml" />
+    </mj-body>
+</mjml>
