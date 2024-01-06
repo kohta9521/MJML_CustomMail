@@ -1,18 +1,47 @@
 <mjml>
-    <mj-body background-color="#fff">
-    <mj-include path="./components/structure/header.mjml" />
-    <mj-section padding="0 10px">
-        <mj-column border-bottom="2px solid #f2f2f2">
-        <mj-text font-size="14px" padding="0"><h2>ミツエーリンクスとは<h2></mj-text>
-        </mj-column>
+  <mj-head>
+    <mj-style>
+      .ticket-style {
+        background-color: #333;
+        border: 2px solid #fff;
+      }
+      .qr-code {
+        font-size: 18px;
+        font-weight: bold;
+      }
+    </mj-style>
+    <mj-attributes>
+      <mj-all font-family="Georgia, serif" />
+      <mj-text line-height="1.5" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#000">
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="24px" color="#fff" font-weight="bold" align="center">
+          Keio Grads Night
+        </mj-text>
+        <mj-divider border-color="#fff"></mj-divider>
+        <mj-text color="#fff">
+          日程：2024年1月8日（月）成人の日<br>
+          時間：20:00-22:30<br>
+          場所：BAIA Shibuya<br>
+          対象：慶應義塾一貫校卒業生<br>
+          会費：10,000円（当日支払い・現金のみ可）
+        </mj-text>
+        <mj-image src="../images/sampleqrcode.png" alt="QR Code" width="250px"></mj-image>
+        <mj-text color="#fff" font-size="30px"align="center">
+          整理券番号: 99
+        </mj-text>
+        <mj-text color="#fff">
+          渋谷PARCO前の、ルーフトップを含めた5階建ての会場を貸切にしております。<br>
+          会場内ではアルコール・ソフトドリンク飲み放題と軽食、また豪華景品を多数用意しております。<br>
+          添付しておりますQRコードは当日入場の際に入り口にて読み取らせていただきます。<br>
+          当日は【 抽選会(参加型:その場で抽選 / 非参加型:運営側で抽選を行いInstagram上にて当選者発表)・ビンゴ大会】の実施を予定しております。<br>
+          〈Instagram Account：keionijikai.2024〉<br>
+          〒150-0042 東京都渋谷区宇田川町16-17
+        </mj-text>
+      </mj-column>
     </mj-section>
-    <mj-section padding="20px 10px">
-        <mj-column>
-        <mj-text padding="0"><p>ミツエーリンクスは1990年というIT分野の幕開けともいえる時期から、デジタルコンテンツを中心に、数々のユニークなサービスを提供してきました。</p></mj-text>
-        <mj-text padding="0"><p>顧客企業さまのマーケティングやブランディングをデジタルメディアで実現し、また継続的に改善し続けるべく、コンテンツ（映像・音声を含む）およびUIの企画・設計・実装、Webサイトの構築・運用を中心に、システム開発、アプリケーション開発、アクセシビリティ/ユーザビリティの向上、アクセス解析に至るまで、さまざまなサービスを包括的に提供しています。</p></mj-text>
-        <mj-text padding="0"><p>ミツエーリンクスは、高い技術品質、プロセス品質、サービス品質と共に一連のサービスを有機的に統合し、機能的価値と情緒的価値に変換することで、企業・社会活動に貢献します。</p></mj-text>
-        </mj-column>
-    </mj-section>
-    <mj-include path="./components/structure/footer.mjml" />
-    </mj-body>
+  </mj-body>
 </mjml>
