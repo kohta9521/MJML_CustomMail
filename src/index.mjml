@@ -27,13 +27,13 @@
       <mj-column>
             <mj-image src="../images/sampleqrcode.png" alt="QR Code" width="300px"></mj-image>
             <!-- ここに整理券番号を挿入 -->
-            <mj-text color="#8D7700" font-size="42px"align="center" padding="40px" font-weight="bold" >
+            <mj-text color="#8D7700" font-size="40px" align="center" padding="40px 0px 0px 0px" font-weight="bold" >
             整理券番号: 99
             </mj-text>
-            <mj-text  color="#fff" padding="100px" font-size="45px" font-weight="bold" align="center">
+            <mj-text  color="#fff" padding="100px 0px 100px 0px" font-size="45px" font-weight="bold" align="center">
             Keio Grads Night<br>
             </mj-text>
-        <mj-text css-class="event-details" padding="0px 100px" color="#8D7700" font-weight="bold" >
+        <mj-text css-class="event-details" padding="0px 40px 0px 40px" color="#8D7700" font-weight="bold" >
           日程：2024年1月8日（月）成人の日<br>
           時間：20:00-22:30<br>
           場所：BAIA Shibuya<br>
@@ -52,10 +52,10 @@
           <br>
 
         </mj-text>
-        <mj-text  color="#fff" padding="20px" font-size="15px" font-weight="bold" align="center">
+        <mj-text  color="#fff" padding="20px 0px 10px 0px" font-size="14px" font-weight="bold" align="center">
             〈Instagram Account：keionijikai.2024〉
         </mj-text>
-        <mj-text  color="#fff" padding="0px" font-size="15px" font-weight="bold" align="center">
+        <mj-text  color="#fff"  font-size="14px" font-weight="bold" align="center">
             〒150-0042 東京都渋谷区宇田川町16-17
         </mj-text>
       </mj-column>
